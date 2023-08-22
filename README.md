@@ -1,5 +1,5 @@
 # rootOnNVMe
-Switch the rootfs to a NVMe SSD on the Jetson Xavier NX and Jetson AGX Xavier. Originaly taken from [this repo](https://github.com/HackPartners/rootOnNVMe)
+Switch the rootfs to a NVMe SSD on the Jetson Xavier NX and Jetson AGX Xavier. Originaly taken from [this repo](https://github.com/HackPartners/rootOnNVMe) with help from a video of Kirill using the [original repo on a node](https://drive.google.com/file/d/1G8vMDIwg7MrW1KqbWxp1CkrrwX4BQJxZ/view?usp=drive_link).
 
 These scripts install a service which runs at startup to point the rootfs to a SSD installed on /dev/nvme0 (the M.2 Key M slot).
 
